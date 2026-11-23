@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Local data: never commit documents, the vector index or audit logs
+# data/pdfs/*
+!data/pdfs/.gitkeep
+data/index/
+data/audit.jsonl
+eval/report.json

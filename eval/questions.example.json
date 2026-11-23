@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Pendant combien de temps l'exonération du ticket modérateur est-elle accordée pour les syndromes myélodysplasiques ?",
+    "expected_sources": ["syndromes_dysplasiques"],
+    "expected_keywords": ["10 ans"]
+  },
+  {
+    "question": "Quels professionnels sont impliqués dans le parcours de soins des syndromes myélodysplasiques ?",
+    "expected_sources": ["syndromes_dysplasiques"],
+    "expected_keywords": ["hématologue", "médecin généraliste"]
+  },
+  {
+    "question": "Quelles affections entrent dans le cadre des syndromes myélodysplasiques pour l'ALD 2 ?",
+    "expected_sources": ["syndromes_dysplasiques"],
+    "expected_keywords": ["leucémie myélomonocytaire chronique"]
+  },
+  {
+    "question": "Quand l'actualisation de ce guide ALD a-t-elle été validée par le Collège de la HAS ?",
+    "expected_sources": ["syndromes_dysplasiques"],
+    "expected_keywords": ["mars 2025"]
+  },
+  {
+    "question": "Quelle commission de la HAS évalue les produits et prestations avant leur remboursement ?",
+    "expected_sources": ["implants_mammaires"],
+    "expected_keywords": ["CEPP"]
+  },
+  {
+    "question": "Qu'est-ce que la liste des produits et prestations remboursables ?",
+    "expected_sources": ["implants_mammaires"],
+    "expected_keywords": ["remboursables"]
+  },
+  {
+    "question": "Quelle catégorie de produits est révisée dans l'évaluation des implants mammaires de 2009 ?",
+    "expected_sources": ["implants_mammaires"],
+    "expected_keywords": ["implant"]
+  },
+  {
+    "question": "Quel est le traitement standard de l'aplasie médullaire sévère chez l'adulte ?",
+    "expected_sources": ["aplastic"],
+    "expected_keywords": ["eltrombopag", "ATG"]
+  },
+  {
+    "question": "L'eltrombopag est-il indiqué en première ligne chez l'enfant ?",
+    "expected_sources": ["aplastic"],
+    "expected_keywords": ["enfant"]
+  },
+  {
+    "question": "Quel est le seul traitement curatif de l'atteinte hématologique dans les formes constitutionnelles ?",
+    "expected_sources": ["aplastic"],
+    "expected_keywords": ["greffe"]
+  }
+]

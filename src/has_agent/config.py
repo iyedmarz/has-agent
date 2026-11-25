@@ -42,7 +42,7 @@ def get_settings() -> Settings:
     data = Path(os.getenv("HAS_DATA_DIR", ROOT / "data"))
     settings = Settings(
         ollama_host=os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434"),
-        llm_model=os.getenv("HAS_LLM_MODEL", "qwen3.5:4b"),
+        llm_model=os.getenv("HAS_LLM_MODEL", "llama3.2:3b"),
         embed_model=os.getenv("HAS_EMBED_MODEL", "bge-m3"),
         pdf_dir=Path(os.getenv("HAS_PDF_DIR", data / "pdfs")),
         index_dir=Path(os.getenv("HAS_INDEX_DIR", data / "index")),

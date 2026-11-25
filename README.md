@@ -73,6 +73,7 @@ has-agent chat          # conversation with follow-up questions, empty line to q
 ```
 
 ## 6. Questions Examples
+  # /docs/screeshots
   # /eval/questions.example.json
 
 - "Quels professionnels sont impliqués dans le parcours de soins ?"
